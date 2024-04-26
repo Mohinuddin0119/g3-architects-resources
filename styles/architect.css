@@ -103,13 +103,26 @@ main{
     .nav-container{
         flex-direction: column;
     }
+    .teams-container{
+        flex-direction: column;
+    }
+    .teams-photo{
+        width: 100%;
+    }
+
 }
 /* medium devices */
-@media screen and (min-width:576px) and (max-width:992px) {
+@media screen and (min-width:576px) and (max-width:992px){
     header{
         padding: 50px;
     }
     .nav-container{
         flex-direction: column;
+    }
+    .teams-container{
+        flex-direction: column;
+    }
+    .teams-photo{
+        width: 100%;
     }
 }
